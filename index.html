@@ -3,31 +3,124 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Your Name - Portfolio</title>
-<link rel="stylesheet" href="styles.css">
+<title>Winx - Magical Portfolio</title>
+<style>
+/* 🌸 Winx Fairy Aesthetic 🌸 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Pacifico&display=swap');
+
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #ffb6f9 0%, #ffc1e3 40%, #a0e9ff 100%);
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Header with sparkly glow */
+header {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    padding: 20px 0;
+    box-shadow: 0 0 25px rgba(255, 0, 255, 0.3);
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 0 0 15px #ff00ff, 0 0 25px #00fff7;
+    animation: glowPulse 3s infinite ease-in-out;
+}
+
+/* Section cards */
+main {
+    display: grid;
+    gap: 30px;
+    padding: 40px;
+    width: 90%;
+    max-width: 900px;
+}
+
+section {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+section:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 35px rgba(255, 0, 255, 0.4);
+}
+
+h2 {
+    color: #fff;
+    text-shadow: 0 0 10px #00eaff;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+    padding: 20px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.15);
+    width: 100%;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 -5px 20px rgba(255, 0, 255, 0.3);
+}
+
+footer p {
+    color: #fff;
+    text-shadow: 0 0 8px #00eaff;
+}
+
+/* Animations */
+@keyframes glowPulse {
+    0% { text-shadow: 0 0 10px #ff00ff, 0 0 20px #00eaff; }
+    50% { text-shadow: 0 0 25px #ff66c4, 0 0 45px #00fff7; }
+    100% { text-shadow: 0 0 10px #ff00ff, 0 0 20px #00eaff; }
+}
+</style>
 </head>
 <body>
-    <header>
-<h1>Winx</h1>
+<header>
+  <h1>✨ Winx ✨</h1>
 </header>
-<nav>
-</nav>
+
 <main>
-<section>
-<h2>What is it about?</h2>
-<p>A normal girl with a normal life that suddenly discovers she is a fairy adn starts living a adventure to discover her origins with her friends</p>
-   </section>
-<section>
-<h2>Why is it important to me?</h2>
-<p>Is was part of my childhood</p>
-</section>
-<section>
-<h2>Should you watch it?</h2>
-<p>I do not think so because the animation is really old and if you are above 10 it might be boring</p>
-</section>
+  <section>
+    <h2>What is it about?</h2>
+    <p>A normal girl with a normal life that suddenly discovers she is a fairy and starts living an adventure to discover her origins with her friends.</p>
+  </section>
+
+  <section>
+    <h2>Why is it important to me?</h2>
+    <p>It was a big part of my childhood — full of magic, friendship, and sparkle!</p>
+  </section>
+
+  <section>
+    <h2>Should you watch it?</h2>
+    <p>Maybe not if you’re over 10, but it’s still nostalgic and iconic ✨</p>
+  </section>
 </main>
+
 <footer>
-<p>Thank you for your attention!</p>
+  <p>🌷 Thank you for your attention! 🌷</p>
 </footer>
 </body>
 </html>
+
