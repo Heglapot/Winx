@@ -37,6 +37,20 @@ h1 {
     animation: glowPulse 3s infinite ease-in-out;
 }
 
+/* ✨ Winx Image ✨ */
+.hero-img {
+    margin-top: 30px;
+    border-radius: 25px;
+    box-shadow: 0 0 30px rgba(255, 0, 255, 0.4), 0 0 40px rgba(0, 255, 255, 0.3);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    max-width: 90%;
+}
+
+.hero-img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 40px rgba(255, 0, 255, 0.6), 0 0 60px rgba(0, 255, 255, 0.4);
+}
+
 /* Section cards */
 main {
     display: grid;
@@ -101,6 +115,9 @@ footer p {
   <h1>✨ Winx ✨</h1>
 </header>
 
+<!-- 🌸 Magical Winx Image -->
+<img src="https://heglapot.github.io/Winx/Winx-Club.jpg" alt="Winx Club" class="hero-img" width="500" height="333">
+
 <main>
   <section>
     <h2>What is it about?</h2>
@@ -123,4 +140,3 @@ footer p {
 </footer>
 </body>
 </html>
-
